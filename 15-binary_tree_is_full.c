@@ -1,7 +1,8 @@
 #include "binary_trees.h"
 /**
- * binary_tree_size - measure the size of a binary tree
+ * binary_tree_is_full - that checks if tree full
  * @tree: binary tree
+ * Return: 0 false 1 true
  */
 int binary_tree_is_full(const binary_tree_t *tree)
 {
